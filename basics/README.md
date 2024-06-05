@@ -10,4 +10,6 @@ this script dsplay current directory contents, including hidden files.
 
 this script display current directory contents, long format, with user and group IDs displayed numerically and hidden files.
 
+this script creates a directory named my first directory in the /tmp/ directory.
+
 
