@@ -14,7 +14,7 @@
 
 7-this script move the file betty from /tmp/ to /tmp/my first file.
 
-8-
+8-this script delete the file betty
 
 
 
