@@ -1,4 +1,4 @@
-0-this is script prints the absolute path name of the current working directory.
+0-this is script that prints the absolute path name of the current working directory.
 
 1-this script display the contents list of your current directory.
 
@@ -18,7 +18,7 @@
 
 9-this script delete the directory my first directory that is in the /tmp directory.
 
-10-
+10-this script changes the working directory to the previous one.
 
 
 
