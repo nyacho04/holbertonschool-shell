@@ -14,7 +14,11 @@
 
 7-this script move the file betty from /tmp/ to /tmp/my first file.
 
-8-this script delete the file betty
+8-this script delete the file betty.
+
+9-this script delete the directory my first directory that is in the /tmp directory.
+
+10-
 
 
 
