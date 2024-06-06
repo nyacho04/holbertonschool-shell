@@ -1,0 +1,2 @@
+#!/bin/bashi
+mkdir my_dir chmod 751 my_dir
