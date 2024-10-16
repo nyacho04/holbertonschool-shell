@@ -1,2 +1,0 @@
-#!/bin/bash
-printf "%o\n" $(( 4#$(echo $WATER | tr 'wxyz' '0123') + 3#$(echo $STIR | tr 'stir' '012') ))
