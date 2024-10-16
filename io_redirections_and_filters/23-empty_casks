@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -size 0 -o -type d -empty | cut -d/ -f2- | sed 's/^/"/;s/$/"/'; echo
+find . -type f -size 0 -o -type d -empty | cut -d/ -f2- | tr -d '\n' | fmt -1; printf "\n"
