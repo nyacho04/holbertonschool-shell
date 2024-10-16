@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -d ":" -f 1,6 /etc/passwd | sort
+find . -type f -size 0 -o -type d -empty | cut -d/ -f2- | sed 's/^/"/;s/$/"/'; echo
