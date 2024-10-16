@@ -1,2 +1,2 @@
 #!/bin/bash
- count PATH=$PATH:/action
+count=$(echo "$PATH" | tr ':' '\n' | grep '/' | wc -l) | echo "$count"
