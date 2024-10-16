@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -empty -print -o -type d -empty -print | sed 's|^\./||' | sort -u
+find . -empty -exec bash -c 'for item; do echo "${item#./}"; done' _ {} +
